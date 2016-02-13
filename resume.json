@@ -36,96 +36,80 @@
       "endDate": "Current",
       "summary": "...",
       "highlights": [
-        "TODO",
-        "TODO"
+        // "TODO",
+        // "TODO"
       ]
     },
-    {
-      "company": "Nextdoor",
-      "position": "Software Engineer",
-      "website": "http://nextdoor.com",
-      "startDate": "2014-01-07",
-      "endDate": "Current",
-      "summary": "...",
-      "highlights": [
-        "TODO",
-        "TODO"
-      ]
-    }
   ],
   "education": [
     {
       "institution": "Claremont McKenna College",
       "area": "Computer Science & Economics",
       "studyType": "Bachelor",
-      "startDate": "TODO",
-      "endDate": "TODO",
-      "gpa": "TODO",
+      "startDate": "Fall 2009",
+      "endDate": "Fall 2014",
+      "gpa": "3.5",
       "courses": [
-        "TODO"
+//        "TODO"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
-    }
-  ],
+  // "awards": [
+  //   {
+  //     "title": "Digital Compression Pioneer Award",
+  //     "date": "2014-11-01",
+  //     "awarder": "Techcrunch",
+  //     "summary": "There is no spoon."
+  //   }
+  // ],
+  // "publications": [
+  //   {
+  //     "name": "Video compression for 3d media",
+  //     "publisher": "Hooli",
+  //     "releaseDate": "2014-10-01",
+  //     "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+  //     "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+  //   }
+  // ],
+  // "skills": [
+  //   {
+  //     "name": "Web Development",
+  //     "level": "Master",
+  //     "keywords": [
+  //       "HTML",
+  //       "CSS",
+  //       "Javascript"
+  //     ]
+  //   },
+  //   {
+  //     "name": "Compression",
+  //     "level": "Master",
+  //     "keywords": [
+  //       "Mpeg",
+  //       "MP4",
+  //       "GIF"
+  //     ]
+  //   }
+  // ],
   "languages": [
     {
       "language": "English",
       "fluency": "Native speaker"
     },
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  // "interests": [
+  //   {
+  //     "name": "Wildlife",
+  //     "keywords": [
+  //       "Ferrets",
+  //       "Unicorns"
+  //     ]
+  //   }
+  // ],
+  // "references": [
+  //   {
+  //     "name": "Erlich Bachman",
+  //     "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+  //   }
+  // ]
 }
