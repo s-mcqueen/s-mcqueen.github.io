@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Sean McQueen",
-    "label": "Programmer",
+    "label": "Software Engineer",
     "picture": "",
     "email": "sean@mcqueen.net",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
+    "phone": "(206) 718-7746",
+    "website": "http://mcqueen.tv",
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": "Bush St",
+      "postalCode": "CA 94109",
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
@@ -17,55 +17,52 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "snmcqueen",
+        "url": "https://twitter.com/snmcqueen"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "snmcqueen",
+        "url": "https://www.linkedin.com/in/snmcqueen"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Nextdoor",
+      "position": "Software Engineer",
+      "website": "http://nextdoor.com",
+      "startDate": "2014-01-07",
+      "endDate": "Current",
+      "summary": "...",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "TODO",
+        "TODO"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "Nextdoor",
+      "position": "Software Engineer",
+      "website": "http://nextdoor.com",
+      "startDate": "2014-01-07",
+      "endDate": "Current",
+      "summary": "...",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "TODO",
+        "TODO"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "Claremont McKenna College",
+      "area": "Computer Science & Economics",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "startDate": "TODO",
+      "endDate": "TODO",
+      "gpa": "TODO",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "TODO"
       ]
     }
   ],
@@ -107,6 +104,10 @@
     }
   ],
   "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
     {
       "language": "English",
       "fluency": "Native speaker"
