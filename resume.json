@@ -39,7 +39,7 @@
             "website":"http://nextdoor.com",
             "startDate":"2014-01-01",
             "endDate":"Current",
-            "summary":"Joined Nextdoor as employee ~50 after a 2013 summer internship. Initialially worked on infrastructure projects during a critical period of infrastructure work for the company (in reaction to increased user growth). I have committed code on every platform we support and every level of our stack. I currently work on new mobile product inititives.",
+            "summary":"Joined Nextdoor after a 2013 summer internship. Initially worked on infrastructure projects during a critical period of infrastructure work for the company (in reaction to increased user growth). I have committed code on every platform we support and every level of our stack. I currently work on new mobile product initiatives.",
             "highlights":[
                 "Learned Objective-C and the iOS platform while on a deadline to ship code: implemented multiple photo uploading and viewing on iOS and web. Handled limited server thread capacity by uploading photos directly to AWS S3. Increased number of photo posts by over 100%.",
                 "Led a cross-platform team of 7 engineers (web, iOS & Android) to build the 2014 Holiday Cheer Map, an user growth inititive. Worked with designers and PM to spec the feature and plan for launch. Responsible for negotiating and then hitting aggressive development deadlines. Increased user sign-up during the slow holiday season by 16,000 users.",
@@ -53,7 +53,7 @@
             "website":"https://cmcforum.com/",
             "startDate":"2012-04-15",
             "endDate":"2013-04-15",
-            "summary":"Managing editor for college newspaper with 30,000 pageviews a month",
+            "summary":"Managing editor for college newspaper with 30,000 pageviews a month.",
             "highlights":[
                 "Worked with Editor-in-Chief to manage a staff of 30.",
                 "Managed a publishing schedule, ran weekly editorial meetings and helped plan content about campus issues and topics of interest for college students.",
