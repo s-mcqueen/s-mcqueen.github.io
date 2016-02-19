@@ -51,8 +51,8 @@
             "company":"CMC Forum",
             "position":"Managing Editor",
             "website":"https://cmcforum.com/",
-            "startDate":"2013-04-15",
-            "endDate":"2012-04-15",
+            "startDate":"2012-04-15",
+            "endDate":"2013-04-15",
             "summary":"Managing editor for college newspaper with 30,000 pageviews a month",
             "highlights":[
                 "Worked with Editor-in-Chief to manage a staff of 30.",
@@ -66,11 +66,11 @@
             "website":"https://www.atlassian.com/",
             "startDate":"2012-06-01",
             "endDate":"2012-08-25",
-            "summary":"Worked with ",
+            "summary":"Worked with 4 other interns to build a charting and DB visualization plugin for Atlassian's Confluence wiki product. Acted as Product Manager and Designer.",
             "highlights":[
-                "Acted in a Product Management role on a team of 5 technical interns.",
-                "Designed a charting plugin for Atlassian's Confluence wiki product.",
-                "TODO"
+                "Came up with a set of user stories and determined product requirements for a chart making plugin.",
+                "Created mock-ups and visual designs for the plugin.",
+                "Shipped the plugin internally by the end of the summer."
             ]
         }
     ],
