@@ -9,7 +9,7 @@
 
     <style type="text/css">
 
-        body{
+        body {
             margin:40px auto;
             max-width:650px;
             line-height:1.6;
@@ -19,19 +19,33 @@
             padding:0 10px
         }
 
-        h1,h2,h3{
+        h1,h2,h3 {
             line-height:1.2
+        }
+
+        .profile-photo {
+            border-radius: 100%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .emoji {
+            font-size: 32px;
+            line-height: 1.2;
         }
 
     </style>
     </head>
     <body>
         <header>
+            <img class="profile-photo" src="files/me.png">
             <h1><em>Hi!</em> I'm Sean McQueen</h1>
-            <p>A Software Engineer, an improviser, a traveler, a writer and a pho enthusiast.</p>
+            <p>A software engineer, an improviser, a traveler, a writer and
+             a pho enthusiast.</p>
         </header>
-        <h2>I'm just out here trying stuff, like you.</h2>
-        <p>I just got back from traveling around Europe for a few months and I'm moving from San Francisco to New York City by way of Seattle. If you are interested in hiring me, check out my <a href="files/sean_mcqueen.pdf">resume</a>.</p>
+        <p>I recently moved to New York City to write code for
+        <a href="http://beeswax.com">Beeswax</a>.
+        Check out my <a href="files/sean_mcqueen.pdf">resume.</a></p>
         <h3>I can be reached on the internet in a bunch of places:</h3>
         <ul>
             <li><a href="https://www.facebook.com/sean.mcqueen">Facebook</a></li>
@@ -40,8 +54,40 @@
             <li><a href="https://github.com/s-mcqueen">Github</a></li>
             <li><a href="https://www.instagram.com/snmcqueen/?hl=en">Instagram</a></li>
         </ul>
-        <h3>If you want to contact me directly, <a href="mailto:sean@mcqueen.net">shoot me an email</a></h3>
+
+        <!--
+        Note: this script injects an html snippet including a mailto: link to
+        my personal email address. This is done so that spambots scraping webpages
+        can't find my email, but visitors to my site with JS enabled will get a nice link
+        -->
+
+        <script type="text/javascript" language="javascript">
+        <!--
+        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+        // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+        // This code is freeware provided these four comment lines remain intact
+        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+        { coded = "J67O@W2Ro66O.O6a"
+          key = "Z8KClWoSeni4YvFaQdDqVyHT6Os9b0U7MfgRrGkcpIJBzPLwNEjmuXh2153xAt"
+          shift=coded.length
+          link=""
+          for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+              ltr = coded.charAt(i)
+              link += (ltr)
+            }
+            else {
+              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+              link += (key.charAt(ltr))
+            }
+          }
+        document.write("<h3>If you want to contact me directly, \
+            <a href='mailto:"+link+"'>shoot me an email</a> \
+            </h3>")
+        }
+        </script>
+
         <p>Have a great day!</p>
-        <h1>✌</h1>
+        <span class="emoji">✌🏼</span>
     </body>
 </html>
