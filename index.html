@@ -34,11 +34,15 @@
             line-height: 1.2;
         }
 
+        .spacer {
+            height: 50px;
+        }
+
     </style>
     </head>
     <body>
         <header>
-            <img class="profile-photo" src="files/me.png">
+            <!-- <img class="profile-photo" src="files/me.png"> -->
             <h1><em>Hi!</em> I'm Sean McQueen</h1>
             <p>A software engineer, an improviser, a traveler, a writer and
              a pho enthusiast.</p>
@@ -56,9 +60,9 @@
         </ul>
 
         <!--
-        Note: this script injects an html snippet including a mailto: link to
-        my personal email address. This is done so that spambots scraping webpages
-        can't find my email, but visitors to my site with JS enabled will get a nice link
+        Note: this script injects an html snippet that includes my email.
+        This is done so that spambots scraping webpages can't find my email,
+        but visitors to my site with JS enabled will get a nice link
         -->
 
         <script type="text/javascript" language="javascript">
@@ -67,27 +71,28 @@
         // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
         // This code is freeware provided these four comment lines remain intact
         // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-        { coded = "J67O@W2Ro66O.O6a"
-          key = "Z8KClWoSeni4YvFaQdDqVyHT6Os9b0U7MfgRrGkcpIJBzPLwNEjmuXh2153xAt"
-          shift=coded.length
-          link=""
-          for (i=0; i<coded.length; i++) {
-            if (key.indexOf(coded.charAt(i))==-1) {
-              ltr = coded.charAt(i)
-              link += (ltr)
+        {
+            coded = "J67O@W2Ro66O.O6a"
+            key = "Z8KClWoSeni4YvFaQdDqVyHT6Os9b0U7MfgRrGkcpIJBzPLwNEjmuXh2153xAt"
+            shift=coded.length
+            link=""
+            for (i=0; i<coded.length; i++) {
+                if (key.indexOf(coded.charAt(i))==-1) {
+                    ltr = coded.charAt(i)
+                    link += (ltr)
+                }
+                else {
+                    ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                    link += (key.charAt(ltr))
+                }
             }
-            else {
-              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-              link += (key.charAt(ltr))
-            }
-          }
-        document.write("<h3>If you want to contact me directly, \
-            <a href='mailto:"+link+"'>shoot me an email</a> \
-            </h3>")
+            document.write("<h3>If you want to contact me directly,\
+                shoot me an email: <em>"+link+"</em> </h3>")
         }
         </script>
 
         <p>Have a great day!</p>
+        <div class="spacer"></div>
         <span class="emoji">✌🏼</span>
     </body>
 </html>
