@@ -34,6 +34,10 @@
             line-height: 1.2;
         }
 
+        .emoji-link {
+            text-decoration: none;
+        }
+
         .spacer {
             height: 50px;
         }
@@ -54,15 +58,13 @@
     <body>
         <header>
             <h1><em>hi,</em> I'm Sean McQueen</h1>
-            <p>A software engineer, a millennial and a writer. 
-               I live in New York City and manage engineers building the machine learning platform at Twitter</p>
+            <p>I live in New York City and manage engineers building the machine learning platform at Twitter</p>
         </header>
-        <p>Check out my <a href="files/sean_mcqueen.pdf">resume</a></p>
-
-        <p>Or find me on  
-            <a href="https://twitter.com/seanmcque_n">Twitter</a> and
-            <a href="https://www.linkedin.com/in/snmcqueen">LinkedIn</a>
-        </p>    
+        <h3><a href="files/sean_mcqueen.pdf">Check out my resume</a>,
+           or find me on  
+            <a href="https://twitter.com/seanmcque_n">Twitter</a> (or
+            <a href="https://www.linkedin.com/in/snmcqueen">LinkedIn</a>)
+        </h3>    
             
         <!--
         Note: this script injects an html snippet that includes my email.
@@ -91,13 +93,18 @@
                     link += (key.charAt(ltr))
                 }
             }
-            document.write("<h3>If you want to contact me directly,\
-                send me an email:</h3><h2><em>"+link+"</em> </h2>")
+            document.write("<p>If you want to contact me directly,\
+                send me an email:</p><em>"+link+"</em>")
         }
         </script>
 
-        <p>Have a great day!</p>
         <div class="spacer"></div>
-        <span class="emoji">✌🏼</span>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <a class='emoji-link' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><span class="emoji">✌🏼</span></a>
     </body>
 </html>
