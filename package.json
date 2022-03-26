@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build; cp CNAME build",
+    "predeploy": "npm run build; cp CNAME build; cp -r files build/files",
     "deploy": "gh-pages -b prod -d build",
     "start": "webpack serve  --hot --open",
     "build": "webpack --config webpack.config.js --mode production",
