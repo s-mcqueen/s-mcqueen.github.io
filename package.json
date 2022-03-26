@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build; cp CNAME build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b prod -d build",
     "start": "webpack serve  --hot --open",
     "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
