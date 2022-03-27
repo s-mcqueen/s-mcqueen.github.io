@@ -9,8 +9,8 @@ const Holder = styled('div')({
 const grids = {
   'links': { x: 0, y:0, w:2, h: 2, static: true},
   'header': { x: 2, y:0, w:1, h: 2},
-  'about_me': { x: 3, y:0, w:4, h: 1},
-  'how_to': { x: 3, y:1, w:2, h: 1},
+  'about_me': { x: 3, y:1, w:4, h: 1},
+  'how_to': { x: 3, y:0, w:2, h: 1},
   'welcome': { x: 0, y:2, w:2, h: 1},
   'smiley': { x: 2, y:2, w:3, h: 2}
 }
@@ -102,7 +102,7 @@ const App = () => {
       className="layout"
       breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
       cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
-      compactType={'horizontal'}
+      compactType={'vertical'}
     >
       <div key='links' style={styles['links']} data-grid={grids['links']}>
         <Links />
