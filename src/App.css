@@ -1,0 +1,30 @@
+.Container {
+    margin-left: 50px;
+    margin-top: 50px;
+    /* background-color: red; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.ContentBox {
+    background-color: #E0E0E0;
+    border-radius: 16px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.PhotoOfMe {
+    overflow: hidden;
+}
+
+.Photo {
+    max-width: 100%;
+    display: block;
+}
+
+/* Override */
+.react-grid-item.react-grid-placeholder {
+    background-color: #3366FF;
+}
